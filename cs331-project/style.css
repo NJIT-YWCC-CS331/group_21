@@ -1,0 +1,308 @@
+body {
+    font-family: Arial;
+    background: #f5f6fa;
+}
+
+.container {
+    width: 400px;
+    margin: 60px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 6px;
+}
+
+input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background: #222;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.rental-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.rental-table th,
+.rental-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.rental-table th {
+    background: #6456e9;
+    font-weight: bold;
+}
+
+.rental-table tr:hover {
+    background: #fafafa;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #fff;
+}
+
+.data-table th,
+.data-table td {
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+.data-table th {
+    background: #6456e9;
+    font-weight: bold;
+}
+
+.data-table tr:nth-child(even) {
+    background: #fafafa;
+}
+
+.data-table tr:hover {
+    background: #f1f1f1;
+}
+
+.page-title {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Container polish */
+.container {
+    background: #fff;
+    padding: 20px 22px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+/* Table wrapper for rounding */
+.table-wrapper {
+    overflow-x: auto;
+    border-radius: 8px;
+}
+
+/* Main Table */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.data-table th,
+.data-table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #eaeaea;
+    text-align: left;
+}
+
+.data-table th {
+    background: #f6f7f9;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.data-table tr:hover {
+    background: #f9fafb;
+}
+
+/* Role Badges */
+.role-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.role-admin {
+    background: #e8f1ff;
+    color: #2962ff;
+}
+
+.role-user {
+    background: #e8fbf3;
+    color: #1b8f5a;
+}
+
+.page-title {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.container {
+    background: #fff;
+    padding: 20px 22px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    border-radius: 8px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.data-table th,
+.data-table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #eaeaea;
+    text-align: left;
+}
+
+.data-table th {
+    background: #f6f7f9;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.data-table tr:hover {
+    background: #f9fafb;
+}
+
+.page-title {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.container {
+    background: #fff;
+    padding: 20px 22px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    border-radius: 8px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.data-table th,
+.data-table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #eaeaea;
+    text-align: left;
+}
+
+.data-table th {
+    background: #6456e9;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.data-table tr:hover {
+    background: #f9fafb;
+}
+
+/* Dashboard Header */
+.dashboard-header {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+
+.dashboard-header h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Main Nav Links */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    background: #f4f6f8;
+    color: #333;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+    background: #e9ecf1;
+}
+
+/* Logout Button Accent */
+.logout-btn {
+    background: #ffeaea !important;
+    color: #c0392b !important;
+}
+
+.logout-btn:hover {
+    background: #ffdada !important;
+}
+
+/* Admin Section */
+.admin-links {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.admin-links a {
+    text-decoration: none;
+    padding: 9px 16px;
+    border-radius: 6px;
+    background: #eef3ff;
+    color: #2c5cff;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.admin-links a:hover {
+    background: #e1e9ff;
+}
